@@ -1,0 +1,17 @@
+{
+  "name": "konkan-proxy",
+  "version": "1.0.0",
+  "description": "Konkan game proxy server - free gems, all skins unlocked",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^3.0.0",
+    "cors": "^2.8.5"
+  }
+}
